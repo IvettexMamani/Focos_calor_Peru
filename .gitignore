@@ -1,0 +1,17 @@
+# datos: se regeneran con los scripts de scripts/, salvo los que no se pueden volver a bajar
+data/*
+!data/processed/
+!data/raw/
+data/raw/*
+!data/raw/firms/
+data/raw/firms/*
+# FIRMS publica solo los últimos 7 días: este archivo ya no se puede volver a descargar
+!data/raw/firms/viirs-snpp_nrt_7d_2026-10-21_Peru.csv
+*.part
+
+# entorno
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.ruff_cache/
