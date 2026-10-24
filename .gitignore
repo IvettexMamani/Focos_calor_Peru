@@ -9,7 +9,14 @@ data/raw/firms/*
 !data/raw/firms/viirs-snpp_nrt_7d_2026-10-21_Peru.csv
 *.part
 
+# reel: la voz de referencia y los audios intermedios con la voz clonada; se regeneran con scripts/reel_voz.py
+reports/reel/voz/
+reports/reel/voz_referencia.*
+reports/reel/reel.wav
+reports/reel/whisper_palabras.json
+
 # entorno
+.env
 .venv/
 __pycache__/
 *.pyc

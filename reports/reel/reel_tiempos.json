@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gancho",
+    "inicio": 0.0,
+    "fin": 5.791
+  },
+  {
+    "id": 2,
+    "nombre": "Cuánto",
+    "inicio": 6.096,
+    "fin": 15.865
+  },
+  {
+    "id": 3,
+    "nombre": "Esta semana",
+    "inicio": 16.17,
+    "fin": 24.822
+  },
+  {
+    "id": 4,
+    "nombre": "Dónde",
+    "inicio": 25.127,
+    "fin": 31.337
+  },
+  {
+    "id": 5,
+    "nombre": "A quién afecta",
+    "inicio": 31.642,
+    "fin": 41.338
+  },
+  {
+    "id": 6,
+    "nombre": "Políticas",
+    "inicio": 41.644,
+    "fin": 48.761
+  },
+  {
+    "id": 7,
+    "nombre": "Cierre",
+    "inicio": 49.066,
+    "fin": 55.694
+  }
+]

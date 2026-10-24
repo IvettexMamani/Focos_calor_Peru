@@ -1,0 +1,651 @@
+{
+  "titulo": "Incendios forestales en el Perú 2026",
+  "corte_datos": "2026-10-21",
+  "duracion_objetivo_s": {
+    "min": 45,
+    "max": 60
+  },
+  "fuente_principal": "reports/monitor_incendios_2026.html",
+  "generado_por": {
+    "modelo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF (qwen2.5-1.5b-instruct-q4_k_m.gguf)",
+    "motor": "llama.cpp (local, CPU)",
+    "fecha": "2026-10-24T12:44:49"
+  },
+  "escenas": [
+    {
+      "id": 1,
+      "nombre": "Gancho",
+      "texto": "En 2026, el Perú se quema el doble que en 2025.",
+      "locucion": "En dos mil veintiséis, el Perú se quema el doble que en dos mil veinticinco.",
+      "pantalla": {
+        "cifra": "×2",
+        "etiqueta": "área quemada frente a 2025",
+        "detalle": "de enero a agosto, según MODIS"
+      },
+      "afirmaciones": [
+        {
+          "dato": "41 000 ha",
+          "cita_informe": "Área quemada 2026 41 000 ha de enero a agosto, según MODIS ×2.0 frente a ene–ago 2025 ene ago",
+          "frase": "F8",
+          "fuente": "MODIS MCD64A1 (área quemada)",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": false,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        },
+        {
+          "dato": "2026",
+          "cita_informe": "Informe · Incendios forestales · Temporada 2026 En 2026 el Perú se quema el doble que en 2025",
+          "frase": "F3",
+          "fuente": "MODIS MCD64A1 (área quemada)",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "2026",
+            "estado": "exacta",
+            "frase": "F3",
+            "cita": "Informe · Incendios forestales · Temporada 2026 En 2026 el Perú se quema el doble que en 2025"
+          },
+          {
+            "cifra": "2025",
+            "estado": "exacta",
+            "frase": "F3",
+            "cita": "Informe · Incendios forestales · Temporada 2026 En 2026 el Perú se quema el doble que en 2025"
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: «41 000» no se dice en la escena; a «41 000 ha» le falta «×»",
+        "afirmaciones_agregadas": 0,
+        "locucion_qwen": "En 2026, el Perú se quema el doble que en 2025",
+        "pantalla_qwen": {
+          "cifra": "41 000 ha",
+          "etiqueta": "área quemada de enero a agosto",
+          "detalle": "de enero a agosto, según MODIS ×2.0 frente a ene–ago 2025 ene ago"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Cuánto",
+      "texto": "De enero a agosto ardieron 41 000 hectáreas, la mitad que en 2024, el año récord, y aún faltan los meses más fuertes.",
+      "locucion": "De enero a agosto ardieron cuarenta y un mil hectáreas, la mitad que en dos mil veinticuatro, el año récord, y aún faltan los meses más fuertes.",
+      "pantalla": {
+        "cifra": "41 000 ha",
+        "etiqueta": "quemadas de enero a agosto de 2026",
+        "detalle": "la mitad que en 2024, el año récord"
+      },
+      "afirmaciones": [
+        {
+          "dato": "41 000",
+          "cita_informe": "2024 83 330 ha 2025 20 393 ha 2026 41 000 ha",
+          "frase": "F26",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "41 000",
+          "cita_informe": "Hallazgo 1 · Cuánto ×2.0 frente a 2025 2026 duplica a 2025, pero no llega a la mitad de 2024",
+          "frase": "F23",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [],
+          "fuente_coincide": null,
+          "verificado": false
+        },
+        {
+          "dato": "41 000",
+          "cita_informe": "Solo agosto de 2026 sumó 23 934 ha , cuatro veces agosto de 2025, y todavía faltan septiembre y octubre, los meses más fuertes.",
+          "frase": "F25",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "41 000",
+          "cita_informe": "Área quemada 2026 41 000 ha de enero a agosto, según MODIS ×2.0 frente a ene–ago 2025 ene ago",
+          "frase": "F8",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "41 000",
+            "estado": "exacta",
+            "frase": "F4",
+            "cita": "Entre enero y agosto se quemaron 41 000 hectáreas , el doble que en el mismo periodo de 2025, aunque la mitad que en 2024, el año récord."
+          },
+          {
+            "cifra": "2024",
+            "estado": "exacta",
+            "frase": "F4",
+            "cita": "Entre enero y agosto se quemaron 41 000 hectáreas , el doble que en el mismo periodo de 2025, aunque la mitad que en 2024, el año récord."
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: a «41 000» le falta «ha»",
+        "afirmaciones_agregadas": 0,
+        "locucion_qwen": "41 000 hectáreas",
+        "pantalla_qwen": {
+          "cifra": "41 000",
+          "etiqueta": "area quemada",
+          "detalle": "de enero a agosto de 2026"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Esta semana",
+      "texto": "Del 14 al 21 de octubre, los satélites detectaron 3 137 focos de calor: casi cuatro veces más que hace un año.",
+      "locucion": "Del catorce al veintiuno de octubre, los satélites detectaron tres mil ciento treinta y siete focos de calor: casi cuatro veces más que hace un año.",
+      "pantalla": {
+        "cifra": "3 137",
+        "etiqueta": "focos de calor",
+        "detalle": "del 14 al 21 de octubre"
+      },
+      "afirmaciones": [
+        {
+          "dato": "3 137",
+          "cita_informe": "Del 14 al 21 de octubre los satélites detectaron 3 137 focos de calor , casi cuatro veces más que en las mismas fechas de 2025.",
+          "frase": "F5",
+          "fuente": "VIIRS S-NPP, NASA FIRMS (focos de calor)",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "VIIRS S-NPP, NASA FIRMS (focos de calor)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        },
+        {
+          "dato": "4",
+          "cita_informe": "Del 14 al 21 de octubre se detectaron 3 137 focos de calor , frente a 814 en las mismas fechas de 2025.",
+          "frase": "F34",
+          "fuente": "VIIRS S-NPP, NASA FIRMS (focos de calor)",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": false,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "VIIRS S-NPP, NASA FIRMS (focos de calor)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "14",
+            "estado": "exacta",
+            "frase": "F5",
+            "cita": "Del 14 al 21 de octubre los satélites detectaron 3 137 focos de calor , casi cuatro veces más que en las mismas fechas de 2025."
+          },
+          {
+            "cifra": "21",
+            "estado": "exacta",
+            "frase": "F5",
+            "cita": "Del 14 al 21 de octubre los satélites detectaron 3 137 focos de calor , casi cuatro veces más que en las mismas fechas de 2025."
+          },
+          {
+            "cifra": "3 137",
+            "estado": "exacta",
+            "frase": "F5",
+            "cita": "Del 14 al 21 de octubre los satélites detectaron 3 137 focos de calor , casi cuatro veces más que en las mismas fechas de 2025."
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "la de Qwen solo usa cifras de la escena y del informe",
+        "afirmaciones_agregadas": 0,
+        "locucion_qwen": "Del 14 al 21 de octubre, los satélites detectaron 3 137 focos de calor: casi cuatro veces más que hace un año."
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Dónde",
+      "texto": "La mitad, en la selva central; y la sierra sur ya concentra el 43 % del área quemada.",
+      "locucion": "La mitad, en la selva central; y la sierra sur ya concentra el cuarenta y tres por ciento del área quemada.",
+      "pantalla": {
+        "cifra": "48 %",
+        "etiqueta": "de los focos, en la selva central",
+        "detalle": "la sierra sur suma el 43 % del área quemada"
+      },
+      "afirmaciones": [
+        {
+          "dato": "48 %",
+          "cita_informe": "El fuego se concentra en la selva central (Ucayali, Junín, Huánuco) y en la sierra sur.",
+          "frase": "F6",
+          "fuente": "Serfor vía Infobae, 13/10/2026",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "VIIRS S-NPP, NASA FIRMS (focos de calor)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "48 %",
+          "cita_informe": "Hallazgo 2 · Dónde 43 % en la sierra sur El área quemada se movió de la Amazonía a la sierra sur",
+          "frase": "F27",
+          "fuente": "Serfor vía Infobae, 13/10/2026",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "48 %",
+          "cita_informe": "Casi cuatro veces más focos que hace un año, la mitad en la selva central",
+          "frase": "F33",
+          "fuente": "Serfor vía Infobae, 13/10/2026",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "VIIRS S-NPP, NASA FIRMS (focos de calor)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "48 %",
+          "cita_informe": "2025 814 2026 3 137 2026, selva central 1 504 Dónde mirar Atención prioritaria",
+          "frase": "F37",
+          "fuente": "Serfor vía Infobae, 13/10/2026",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [],
+          "fuente_coincide": null,
+          "verificado": false
+        },
+        {
+          "dato": "43",
+          "cita_informe": "Hallazgo 2 · Dónde 43 % en la sierra sur El área quemada se movió de la Amazonía a la sierra sur",
+          "frase": "F27",
+          "fuente": "MODIS MCD64A1 (área quemada)",
+          "origen": "revisión automática",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "MODIS MCD64A1 (área quemada)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "43",
+            "estado": "exacta",
+            "frase": "F27",
+            "cita": "Hallazgo 2 · Dónde 43 % en la sierra sur El área quemada se movió de la Amazonía a la sierra sur"
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: a «48» le falta «%»; la etiqueta «porcentaje» no dice qué mide",
+        "afirmaciones_agregadas": 1,
+        "locucion_qwen": "48 %",
+        "pantalla_qwen": {
+          "cifra": "48",
+          "etiqueta": "porcentaje",
+          "detalle": "de los focos, en la selva central"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "A quién afecta",
+      "texto": "Más de 61 000 personas viven a 5 km o menos de un incendio activo. En lo que va del año hay 10 fallecidos; ocho tenían más de 70 años.",
+      "locucion": "Más de sesenta y un mil personas viven a cinco kilómetros o menos de un incendio activo. En lo que va del año hay diez fallecidos; ocho tenían más de setenta años.",
+      "pantalla": {
+        "cifra": "61 481",
+        "etiqueta": "personas a 5 km o menos de un incendio activo",
+        "detalle": "41 incendios activos al 21 de octubre"
+      },
+      "afirmaciones": [
+        {
+          "dato": "61 481",
+          "cita_informe": "Personas a 5 km o menos 61 481 viven a 5 km o menos de un incendio activo sin contar dos veces las zonas que se pisan WorldPop 2020",
+          "frase": "F45",
+          "fuente": "WorldPop 2020 (población cercana)",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "WorldPop 2020 (población cercana)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        },
+        {
+          "dato": "10",
+          "cita_informe": "el grupo más expuesto: 8 de los 10 fallecidos de 2026 tenían más de 70 años",
+          "frase": "F47",
+          "fuente": "COEN-Indeci vía Mongabay, 13/10/2026",
+          "origen": "revisión automática",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "COEN-Indeci vía Mongabay, 13/10/2026"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        },
+        {
+          "dato": "70",
+          "cita_informe": "el grupo más expuesto: 8 de los 10 fallecidos de 2026 tenían más de 70 años",
+          "frase": "F47",
+          "fuente": "COEN-Indeci vía Mongabay, 13/10/2026",
+          "origen": "revisión automática",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "COEN-Indeci vía Mongabay, 13/10/2026"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "61 000",
+            "estado": "redondeo de 61 481",
+            "frase": "F45",
+            "cita": "Personas a 5 km o menos 61 481 viven a 5 km o menos de un incendio activo sin contar dos veces las zonas que se pisan WorldPop 2020"
+          },
+          {
+            "cifra": "5",
+            "estado": "exacta",
+            "frase": "F42",
+            "cita": "Personas que viven a 5 km o menos de un incendio activo, según la población que WorldPop estima para 2020 en píxeles de 100 m."
+          },
+          {
+            "cifra": "10",
+            "estado": "exacta",
+            "frase": "F47",
+            "cita": "el grupo más expuesto: 8 de los 10 fallecidos de 2026 tenían más de 70 años"
+          },
+          {
+            "cifra": "70",
+            "estado": "exacta",
+            "frase": "F47",
+            "cita": "el grupo más expuesto: 8 de los 10 fallecidos de 2026 tenían más de 70 años"
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: la etiqueta «personas» no dice qué mide",
+        "afirmaciones_agregadas": 2,
+        "locucion_qwen": "61 481",
+        "pantalla_qwen": {
+          "cifra": "61 481",
+          "etiqueta": "personas",
+          "detalle": "a 5 km o menos de un incendio activo"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Políticas",
+      "texto": "Y la Política Forestal no se actualiza desde 2013; el plan de prevención del Serfor venció en 2022.",
+      "locucion": "Y la Política Forestal no se actualiza desde dos mil trece; el plan de prevención del Serfor venció en dos mil veintidós.",
+      "pantalla": {
+        "cifra": "13 años",
+        "etiqueta": "sin actualizar la Política Forestal",
+        "detalle": "el plan de prevención del Serfor venció en 2022"
+      },
+      "afirmaciones": [
+        {
+          "dato": "13 años",
+          "cita_informe": "S. 009-2013-MINAGRI · Midagri / Serfor",
+          "frase": "F120",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "D. S. 009-2013-MINAGRI (Política Forestal)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "13 años",
+          "cita_informe": "2013 2013 proyecto al 2030: 24/01/2024 13 años Vigente, desactualizada Política Nacional Agraria 2021–2030 D. S. 017-2021-MIDAGRI · Midagri",
+          "frase": "F123",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [],
+          "fuente_coincide": null,
+          "verificado": false
+        },
+        {
+          "dato": "13 años",
+          "cita_informe": "sin actualizar: es de 2013.",
+          "frase": "F82",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "D. S. 009-2013-MINAGRI (Política Forestal)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "13 años",
+          "cita_informe": "D. S. 009-2013-MINAGRI El Peruano · RM 0010-2024-MIDAGRI",
+          "frase": "F84",
+          "fuente": "Serfor vía Actualidad Ambiental, 09/06/2022",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": false,
+          "fuente_segun_informe": [
+            "D. S. 009-2013-MINAGRI (Política Forestal)"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        },
+        {
+          "dato": "2013",
+          "cita_informe": "S. 009-2013-MINAGRI · Midagri / Serfor",
+          "frase": "F120",
+          "fuente": "D. S. 009-2013-MINAGRI (Política Forestal)",
+          "origen": "revisión automática",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "D. S. 009-2013-MINAGRI (Política Forestal)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        },
+        {
+          "dato": "2022",
+          "cita_informe": "Plan de prevención del Serfor 2022",
+          "frase": "F85",
+          "fuente": "RDE 284-2018-MINAGRI-SERFOR-DE (plan del Serfor)",
+          "origen": "revisión automática",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "RDE 284-2018-MINAGRI-SERFOR-DE (plan del Serfor)"
+          ],
+          "fuente_coincide": true,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "2013",
+            "estado": "exacta",
+            "frase": "F120",
+            "cita": "S. 009-2013-MINAGRI · Midagri / Serfor"
+          },
+          {
+            "cifra": "2022",
+            "estado": "exacta",
+            "frase": "F85",
+            "cita": "Plan de prevención del Serfor 2022"
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: a «13» le falta «años»; la etiqueta «años» no dice qué mide",
+        "afirmaciones_agregadas": 2,
+        "locucion_qwen": "13 años",
+        "pantalla_qwen": {
+          "cifra": "13",
+          "etiqueta": "años",
+          "detalle": "sin actualizar la Política Forestal"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Cierre",
+      "texto": "El 95 % de los incendios tiene origen humano. Evitar una quema puede salvar un bosque.",
+      "locucion": "El noventa y cinco por ciento de los incendios tiene origen humano. Evitar una quema puede salvar un bosque.",
+      "pantalla": {
+        "cifra": "95 %",
+        "etiqueta": "de los incendios forestales tiene origen humano",
+        "detalle": "según el Serfor"
+      },
+      "afirmaciones": [
+        {
+          "dato": "95",
+          "cita_informe": "Origen humano Según Serfor, el 95 % de los incendios forestales tiene causas humanas: quema de residuos agrícolas, habilitación de chacras, cambio de uso del suelo y creencias sobre el fuego.",
+          "frase": "F152",
+          "fuente": "Serfor vía Infobae, 13/10/2026",
+          "origen": "Qwen2.5-1.5B",
+          "dato_en_la_escena": true,
+          "cita_respalda_cifra": true,
+          "fuente_segun_informe": [
+            "Serfor vía Actualidad Ambiental, 09/06/2022"
+          ],
+          "fuente_coincide": false,
+          "verificado": false
+        }
+      ],
+      "revision": {
+        "cifras": [
+          {
+            "cifra": "95",
+            "estado": "exacta",
+            "frase": "F152",
+            "cita": "Origen humano Según Serfor, el 95 % de los incendios forestales tiene causas humanas: quema de residuos agrícolas, habilitación de chacras, cambio de uso del suelo y creencias sobre el fuego."
+          }
+        ],
+        "locucion": "corregida: la de Qwen no decía lo mismo que el texto",
+        "pantalla": "corregida con la del guion: a «95» le falta «%»; la etiqueta «%» no dice qué mide",
+        "afirmaciones_agregadas": 0,
+        "locucion_qwen": "95 %",
+        "pantalla_qwen": {
+          "cifra": "95",
+          "etiqueta": "%",
+          "detalle": "de los incendios forestales tiene origen humano"
+        }
+      }
+    }
+  ],
+  "noticias": [
+    {
+      "medio": "Mongabay Latam",
+      "fecha": "2026-10-13",
+      "titular": "Perú: medio centenar de incendios forestales afecta al menos a 13 regiones y se extienden por territorios indígenas",
+      "url": "https://es.mongabay.com/2026/10/peru-medio-centenar-incendios-forestales-trece-regiones-extienden-territorios-indigenas/",
+      "url_en_informe": true,
+      "verificado": false
+    },
+    {
+      "medio": "Infobae",
+      "fecha": "2026-10-13",
+      "titular": "Perú enfrenta más de 50 incendios forestales activos en 14 regiones y reporta un total de 334 focos de calor",
+      "url": "https://www.infobae.com/peru/2026/10/13/la-cifra-de-incendios-forestales-en-peru-subio-hoy-a-mas-de-50-y-ya-son-14-regiones-afectadas-segun-serfor/",
+      "url_en_informe": true,
+      "verificado": false
+    },
+    {
+      "medio": "RPP",
+      "fecha": "2026-10-08",
+      "titular": "Incendios forestales en Perú 2026: seis muertos y focos activos en cinco regiones",
+      "url": "https://rpp.pe/peru/actualidad/incendios-forestales-en-peru-2026-seis-muertos-y-focos-activos-en-cinco-regiones-noticia-1711550",
+      "url_en_informe": true,
+      "verificado": false
+    },
+    {
+      "medio": "PUCP Puntoedu",
+      "fecha": "2026-10-15",
+      "titular": "Incendios forestales en la sierra del Perú: causas y El Niño",
+      "url": "https://puntoedu.pucp.edu.pe/actualidad/incendios-forestales-en-la-sierra-del-peru-el-clima-cambio-las-reglas-del-fuego/",
+      "url_en_informe": true,
+      "verificado": false
+    },
+    {
+      "medio": "Actualidad Ambiental",
+      "fecha": "2022-06-09",
+      "titular": "El 95 % de los incendios forestales son provocados por causas humanas",
+      "url": "https://www.actualidadambiental.pe/el-95-de-los-incendios-forestales-son-provocados-por-causas-humanas/",
+      "url_en_informe": true,
+      "verificado": false
+    }
+  ],
+  "descripcion": "En 2026, el Perú se quema el doble que en 2025. De enero a agosto ardieron 41 000 hectáreas, la mitad que en 2024, el año récord, y aún faltan los meses más fuertes. Del 14 al 21 de octubre, los satélites detectaron 3 137 focos de calor: casi cuatro veces más que hace un año. La mitad, en la selva central; y la sierra sur ya concentra el 43 % del área quemada. Más de 61 000 personas viven a 5 km o menos de un incendio activo. En lo que va del año hay 10 fallecidos; ocho tenían más de 70 años. Y la Política Forestal no se actualiza desde 2013; el plan de prevención del Serfor venció en 2022. El 95 % de los incendios tiene origen humano. Evitar una quema puede salvar un bosque.",
+  "hashtags": [
+    "#IncendiosForestales",
+    "#Perú",
+    "#Quema",
+    "#SalvemosBosques",
+    "#PrevencionesForestales"
+  ],
+  "revision_descripcion": "la de Qwen solo usa cifras del informe",
+  "revision_hashtags": "los de Qwen"
+}
